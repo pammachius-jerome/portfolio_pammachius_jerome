@@ -1,9 +1,12 @@
 import './App.css';
+import Header from '../components/header/header'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+
+    <div className="AppBody">
+      <Header></Header>
+      <main className="AppAccueil">
         <h1>Jérôme Pammachius</h1>
         <h2>
           Développeur Web et Web Mobile
@@ -11,8 +14,9 @@ function App() {
         <p>
           Front-end, Back-end, Full-stack
         </p>
-      </header>
+      </main>
     </div>
+
   );
 }
 

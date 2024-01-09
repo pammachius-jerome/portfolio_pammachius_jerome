@@ -1,4 +1,4 @@
-.App {
+.AppBody {
   text-align: center;
 }
 
@@ -13,7 +13,7 @@
   }
 } */
 
-.App-header {
+.AppAccueil {
   background-color: #FAFAFA;
   min-height: 100vh;
   display: flex;
